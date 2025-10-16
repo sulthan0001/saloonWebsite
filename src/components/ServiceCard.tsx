@@ -1,4 +1,3 @@
-import { Icon as LucideIcon } from "lucide-react";
 import {
   Card,
   CardContent,
