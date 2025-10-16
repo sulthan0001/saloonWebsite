@@ -80,10 +80,10 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold mb-1">Phone</h3>
                     <a
-                      href="tel:+15551234567"
+                      href="tel:+91 9392892792"
                       className="text-muted-foreground hover:text-[hsl(var(--rose-gold))] transition-colors"
                     >
-                      +1 (555) 123-4567
+                      +91 9392892792
                     </a>
                   </div>
                 </div>
@@ -95,10 +95,10 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
                     <a
-                      href="mailto:info@luxesalon.com"
+                      href="sulthanbashasyed2020@gmail.com"
                       className="text-muted-foreground hover:text-[hsl(var(--rose-gold))] transition-colors"
                     >
-                      info@luxesalon.com
+                      sulthanbashasyed2020@gmail.com
                     </a>
                   </div>
                 </div>
@@ -110,11 +110,11 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold mb-1">Address</h3>
                     <p className="text-muted-foreground">
-                      123 Beauty Street
+                      3, H.No 7-1-397-88, 21B MIGH Nagar
                       <br />
-                      Fashion District
+                      BK Guda Rd, Sanjeeva Reddy
                       <br />
-                      New York, NY 10001
+                      Hyderabad(500038), Telangana, India.
                     </p>
                   </div>
                 </div>
@@ -190,7 +190,7 @@ const Contact = () => {
                     type="tel"
                     value={formData.phone}
                     onChange={handleChange}
-                    placeholder="+1 (555) 123-4567"
+                    placeholder="+91 9392892792"
                     required
                     className="border-border focus:border-[hsl(var(--rose-gold))] focus:ring-[hsl(var(--rose-gold))]"
                   />
