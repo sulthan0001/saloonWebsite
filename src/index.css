@@ -1,0 +1,125 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 24 9% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 24 9% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 24 9% 10%;
+
+    --primary: 24 9% 10%;
+    --primary-foreground: 30 40% 96%;
+
+    --secondary: 30 25% 93%;
+    --secondary-foreground: 24 9% 10%;
+
+    --muted: 30 25% 93%;
+    --muted-foreground: 30 6% 46%;
+
+    --accent: 30 60% 70%;
+    --accent-foreground: 24 9% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 30 40% 96%;
+
+    --border: 30 20% 88%;
+    --input: 30 20% 88%;
+    --ring: 30 60% 70%;
+
+    --radius: 0.75rem;
+
+    /* Salon-specific design tokens */
+    --rose-gold: 30 60% 70%;
+    --rose-gold-light: 30 70% 85%;
+    --charcoal: 24 9% 10%;
+    --warm-white: 30 40% 96%;
+    --warm-gray: 30 6% 46%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(
+      135deg,
+      hsl(var(--rose-gold)) 0%,
+      hsl(30 50% 60%) 100%
+    );
+    --gradient-accent: linear-gradient(
+      180deg,
+      hsl(var(--rose-gold-light)) 0%,
+      hsl(var(--rose-gold)) 100%
+    );
+
+    /* Shadows */
+    --shadow-elegant: 0 10px 40px -15px hsl(var(--rose-gold) / 0.3);
+    --shadow-card: 0 4px 20px -4px hsl(30 60% 70% / 0.15);
+
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 24 9% 10%;
+    --foreground: 30 40% 96%;
+
+    --card: 24 8% 14%;
+    --card-foreground: 30 40% 96%;
+
+    --popover: 24 8% 14%;
+    --popover-foreground: 30 40% 96%;
+
+    --primary: 30 60% 70%;
+    --primary-foreground: 24 9% 10%;
+
+    --secondary: 24 8% 18%;
+    --secondary-foreground: 30 40% 96%;
+
+    --muted: 24 8% 18%;
+    --muted-foreground: 30 15% 65%;
+
+    --accent: 30 60% 70%;
+    --accent-foreground: 24 9% 10%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 30 40% 96%;
+
+    --border: 24 8% 20%;
+    --input: 24 8% 20%;
+    --ring: 30 60% 70%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
